@@ -94,7 +94,7 @@ __**NOTE**__: If you would like to override the memo field use the `--ip` and `-
 
 full steps to create the gentx
 ```
-./stchaind init <node_moniker> --chain-id 'stratos-1' 
-./stchaind keys add <wallet_name> --keyring-backend file --hd-path "m/44'/606'/0'/0/0"
-./stchaind add-genesis-account <wallet_name> 90stos --home node/stchaind --keyring-backend file
+./stchaind init <node_moniker> --chain-id 'stratos-1' --home .
+./stchaind keys add <wallet_name> --keyring-backend file --hd-path "m/44'/606'/0'/0/0" --home .
+./stchaind add-genesis-account <wallet_name> 90stos --home . --keyring-backend file
 ```
