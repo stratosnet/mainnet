@@ -91,3 +91,10 @@ This will produce a file in the `~/.stchaind/config/gentx/` folder that has a na
 To submit your `gentx` for inclusion in genesis, open a pull request against this repository and place the contents in a file `/gentx/<moniker>.json`.
 
 __**NOTE**__: If you would like to override the memo field use the `--ip` and `--node-id` flags for the `stchaind gentx` command above.
+
+full steps to create the gentx
+```
+./stchaind init <node_moniker> --chain-id 'stratos-1' 
+./stchaind keys add <wallet_name> --keyring-backend file --hd-path "m/44'/606'/0'/0/0"
+./stchaind add-genesis-account <wallet_name> 90stos --home node/stchaind --keyring-backend file
+```
