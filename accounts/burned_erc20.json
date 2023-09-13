@@ -1,114 +1,81 @@
 {
   "accounts": [
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st10hl9qqacaagc06aguh2ae564fcxzdjz43tz40g",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st10hl9qqacaagc06aguh2ae564fcxzdjz43tz40g",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st10hrdpcnm39hjrfzg4fczmdveuu9xj5668akun8",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st10hrdpcnm39hjrfzg4fczmdveuu9xj5668akun8",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st12w66mg37jw0j5qyf880tr8r2q2s4n795732gmf",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st12w66mg37jw0j5qyf880tr8r2q2s4n795732gmf",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st14c20dwrccxgcez8c0ndrwalazcmvaxkwafxgdw",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st14c20dwrccxgcez8c0ndrwalazcmvaxkwafxgdw",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st154vycalrhperlptwx2vun6rgx9rz2yv6jncn8f",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st154vycalrhperlptwx2vun6rgx9rz2yv6jncn8f",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st16rqvp5rp67cswkwamv8feyete42dq53qnx04qh",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st16rqvp5rp67cswkwamv8feyete42dq53qnx04qh",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st177y6stelts7580gzxvu7shjnt99ypp4hlsnur6",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st177y6stelts7580gzxvu7shjnt99ypp4hlsnur6",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st1860p2uq9jewugtctlarat58n2rvsn0rm7caahm",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st1860p2uq9jewugtctlarat58n2rvsn0rm7caahm",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st1fm94sglglppdl0tmhu4r0tkt4w6ty4mx4snr7h",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st1fm94sglglppdl0tmhu4r0tkt4w6ty4mx4snr7h",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st1s4c4u3wyj7t8v75fwmga5tsjxxwv96s7knrjt7",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st1s4c4u3wyj7t8v75fwmga5tsjxxwv96s7knrjt7",
+      "pub_key": null,
+      "sequence": "0"
     },
     {
-      "@type": "/stratos.types.v1.EthAccount",
-      "base_account": {
-        "account_number": "0",
-        "address": "st1wun8spm2l87erwnwa486egcsxwfmhnjyl3y0g3",
-        "pub_key": null,
-        "sequence": "0"
-      },
-      "code_hash": "0x97eb1ba2d5fce8e1adf91be533ee3be5f398495227307e8af6c122df048919b5"
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st1wun8spm2l87erwnwa486egcsxwfmhnjyl3y0g3",
+      "pub_key": null,
+      "sequence": "0"
     }
   ],
   "balances": [
