@@ -1,0 +1,86 @@
+{
+  "accounts": [
+    {
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st19204mtgwql49vyex00ah7e5gg9znedf7w5z68g",
+      "pub_key": null,
+      "sequence": "0"
+    },
+    {
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st1ghkn8ra63422mcepdk0zzglzy6qax637lkqh7s",
+      "pub_key": null,
+      "sequence": "0"
+    },
+    {
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st1g8fmnrz00sqh9pz3ghf8ram9q86te8047tgrkv",
+      "pub_key": null,
+      "sequence": "0"
+    },
+    {
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st1990zcrfu2z24jaqn4w48tm9unvhwr9fnz0rc2h",
+      "pub_key": null,
+      "sequence": "0"
+    },
+    {
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st1qlp8jhykjxglutn4q493p7ltxkt7kw33tm0df7",
+      "pub_key": null,
+      "sequence": "0"
+    }
+  ],
+  "balances": [
+    {
+      "address": "st19204mtgwql49vyex00ah7e5gg9znedf7w5z68g",
+      "coins": [
+        {
+          "amount": "100000000000000000000",
+          "denom": "wei"
+        }
+      ]
+    },
+    {
+      "address": "st1ghkn8ra63422mcepdk0zzglzy6qax637lkqh7s",
+      "coins": [
+        {
+          "amount": "100000000000000000000",
+          "denom": "wei"
+        }
+      ]
+    },
+    {
+      "address": "st1g8fmnrz00sqh9pz3ghf8ram9q86te8047tgrkv",
+      "coins": [
+        {
+          "amount": "100000000000000000000",
+          "denom": "wei"
+        }
+      ]
+    },
+    {
+      "address": "st1990zcrfu2z24jaqn4w48tm9unvhwr9fnz0rc2h",
+      "coins": [
+        {
+          "amount": "100000000000000000000",
+          "denom": "wei"
+        }
+      ]
+    },
+    {
+      "address": "st1qlp8jhykjxglutn4q493p7ltxkt7kw33tm0df7",
+      "coins": [
+        {
+          "amount": "100000000000000000000",
+          "denom": "wei"
+        }
+      ]
+    }
+  ]
+}
