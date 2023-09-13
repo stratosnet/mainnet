@@ -3,7 +3,7 @@
     "address": "st10hl9qqacaagc06aguh2ae564fcxzdjz43tz40g",
     "coins": [
       {
-        "amount": "176885356200000000000000",
+        "amount": "539430305880000000000000",
         "denom": "wei"
       }
     ]
@@ -18,10 +18,28 @@
     ]
   },
   {
+    "address": "st12w66mg37jw0j5qyf880tr8r2q2s4n795732gmf",
+    "coins": [
+      {
+        "amount": "19048089457155007110782",
+        "denom": "wei"
+      }
+    ]
+  },
+  {
     "address": "st14c20dwrccxgcez8c0ndrwalazcmvaxkwafxgdw",
     "coins": [
       {
         "amount": "452865916686366196164267",
+        "denom": "wei"
+      }
+    ]
+  },
+  {
+    "address": "st154vycalrhperlptwx2vun6rgx9rz2yv6jncn8f",
+    "coins": [
+      {
+        "amount": "4600000000000000000000",
         "denom": "wei"
       }
     ]
@@ -40,6 +58,15 @@
     "coins": [
       {
         "amount": "768750100000000000000",
+        "denom": "wei"
+      }
+    ]
+  },
+  {
+    "address": "st1860p2uq9jewugtctlarat58n2rvsn0rm7caahm",
+    "coins": [
+      {
+        "amount": "1679325700000000000000",
         "denom": "wei"
       }
     ]
