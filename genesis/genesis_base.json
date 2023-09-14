@@ -47,6 +47,55 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "st13z9efm0lwgz03xx5wm3hhv5jjcc3vsc45xwgpd",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "st1andvaaggydvkzww5h3yvz705nw63gtwamajcr7",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "st1alp8epfj56tusj5tfqj7kdrhvw7cyz75374k0p",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "st1rwrwyvx4mry579prl2mec6g3kq5mf5h2vngy0a",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "st1lvrhgr25enuz66cwe605kmy48metwt5xnhg4r4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "st166mmswr62x20mq4kar682enrsep70txp50ev3z",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "st17cgcczr7q3u5m9z0y7nm7avgsrygrfp4d2g48w",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "st1zy9qal508nvc9h0xqmyz500mkuxhteu7elus52",
           "pub_key": null,
           "account_number": "0",
@@ -190,6 +239,69 @@
             {
               "denom": "wei",
               "amount": "27538331765076478796724951"
+            }
+          ]
+        },
+        {
+          "address": "st13z9efm0lwgz03xx5wm3hhv5jjcc3vsc45xwgpd",
+          "coins": [
+            {
+              "denom": "wei",
+              "amount": "10000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "st1andvaaggydvkzww5h3yvz705nw63gtwamajcr7",
+          "coins": [
+            {
+              "denom": "wei",
+              "amount": "10000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "st1alp8epfj56tusj5tfqj7kdrhvw7cyz75374k0p",
+          "coins": [
+            {
+              "denom": "wei",
+              "amount": "10000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "st1rwrwyvx4mry579prl2mec6g3kq5mf5h2vngy0a",
+          "coins": [
+            {
+              "denom": "wei",
+              "amount": "10000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "st1lvrhgr25enuz66cwe605kmy48metwt5xnhg4r4",
+          "coins": [
+            {
+              "denom": "wei",
+              "amount": "10000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "st166mmswr62x20mq4kar682enrsep70txp50ev3z",
+          "coins": [
+            {
+              "denom": "wei",
+              "amount": "10000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "st17cgcczr7q3u5m9z0y7nm7avgsrygrfp4d2g48w",
+          "coins": [
+            {
+              "denom": "wei",
+              "amount": "10000000000000000000000"
             }
           ]
         },
@@ -639,7 +751,141 @@
         "voting_period": "604800s"
       },
       "resource_nodes": [],
-      "meta_nodes": [],
+      "meta_nodes": [
+        {
+          "network_address": "stsds1793jm44fj9tw0c9c8gxwymc6dtnefw0u9p22wk",
+          "pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "d4F4uIkzXEjmu1kTXWmFKXe64u4ITa9RZ6cE/PaT0E8="
+          },
+          "suspend": false,
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9900000000000000000000",
+          "owner_address": "st13z9efm0lwgz03xx5wm3hhv5jjcc3vsc45xwgpd",
+          "description": {
+            "moniker": "stratos-foundation",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "creation_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "network_address": "stsds129ffpumtwpnm25s2h63gfc9tc3ywl3srgg5mt7",
+          "pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "bc9zWo+G0S3aFZZZytVWrM3a9NdUeXXbIDinUDWrcX0="
+          },
+          "suspend": false,
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9900000000000000000000",
+          "owner_address": "st1andvaaggydvkzww5h3yvz705nw63gtwamajcr7",
+          "description": {
+            "moniker": "stratos-foundation",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "creation_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "network_address": "stsds1z96pm5ls0ff2y7y8adpy6r3l8jqeaud7envnqv",
+          "pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "+n2i2U+0dZqhk8uw5q08aKRaAtWjaJeGL3y2P2dE9EU="
+          },
+          "suspend": false,
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9900000000000000000000",
+          "owner_address": "st1alp8epfj56tusj5tfqj7kdrhvw7cyz75374k0p",
+          "description": {
+            "moniker": "stratos-foundation",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "creation_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "network_address": "stsds10kmygjv7e2t39f6jka6445q20e9lv4a7u3qex3",
+          "pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "gOcQZX0Zom0lRiuAlkZ3V3iTMfGeP0ZqVtkRrWoYYLU="
+          },
+          "suspend": false,
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9900000000000000000000",
+          "owner_address": "st1rwrwyvx4mry579prl2mec6g3kq5mf5h2vngy0a",
+          "description": {
+            "moniker": "stratos-foundation",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "creation_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "network_address": "stsds1ypxg8sj5vn4s4v0w965g4r9g3pt3vlz6wyzx0f",
+          "pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "JrJoDPCbhaplkQiBq0SJIq3I2yYDWvzONGzGfZsFdqA="
+          },
+          "suspend": false,
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9900000000000000000000",
+          "owner_address": "st1lvrhgr25enuz66cwe605kmy48metwt5xnhg4r4",
+          "description": {
+            "moniker": "stratos-foundation",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "creation_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "network_address": "stsds14yhh6duc40n3l3y3qxt0vetm9numlstlxxfz05",
+          "pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "1ibcrgS7edrdBaMAdoTPrR1dbwnQIPTzDmdpcmu6Tu4="
+          },
+          "suspend": false,
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9900000000000000000000",
+          "owner_address": "st166mmswr62x20mq4kar682enrsep70txp50ev3z",
+          "description": {
+            "moniker": "stratos-foundation",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "creation_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "network_address": "stsds1fxdk4cwm5nja6exxdey69pqqrj5tlnmysj2fwu",
+          "pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "625MwYxnASQ+Om4wrEFvIiVky7HaCs3LrZad52RAFi0="
+          },
+          "suspend": false,
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9900000000000000000000",
+          "owner_address": "st17cgcczr7q3u5m9z0y7nm7avgsrygrfp4d2g48w",
+          "description": {
+            "moniker": "stratos-foundation",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "creation_time": "0001-01-01T00:00:00Z"
+        }
+      ],
       "remaining_noz_limit": "0",
       "slashing": [],
       "deposit_noz_rate": "1000000.000000000000000000"
