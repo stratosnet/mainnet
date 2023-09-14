@@ -34,6 +34,13 @@
       "address": "st1qlp8jhykjxglutn4q493p7ltxkt7kw33tm0df7",
       "pub_key": null,
       "sequence": "0"
+    },
+    {
+      "@type": "/cosmos.auth.v1beta1.BaseAccount",
+      "account_number": "0",
+      "address": "st1zy9qal508nvc9h0xqmyz500mkuxhteu7elus52",
+      "pub_key": null,
+      "sequence": "0"
     }
   ],
   "balances": [
@@ -75,6 +82,15 @@
     },
     {
       "address": "st1qlp8jhykjxglutn4q493p7ltxkt7kw33tm0df7",
+      "coins": [
+        {
+          "amount": "100000000000000000000",
+          "denom": "wei"
+        }
+      ]
+    },
+    {
+      "address": "st1zy9qal508nvc9h0xqmyz500mkuxhteu7elus52",
       "coins": [
         {
           "amount": "100000000000000000000",
