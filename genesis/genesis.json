@@ -45851,7 +45851,618 @@
       "allowances": []
     },
     "genutil": {
-      "gen_txs": []
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "0xDevRawl",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.090000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st1zy9qal508nvc9h0xqmyz500mkuxhteu7elus52",
+                "validator_address": "stvaloper1zy9qal508nvc9h0xqmyz500mkuxhteu7wn4sgp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "NIh+ybQFoHDiNd133LcwUYjmGxR8ITta/2G1gpcq/AU="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "90000000000000000000"
+                }
+              }
+            ],
+            "memo": "431fa1be3ae34f83db720fcdeeaf7bd3c2a5976c@192.168.0.4:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AnBulJS84EXNxRy3ThUEIGYqe4HI0EpUEyb7IBGwDqqQ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "QIB0dnxUHD72AajZRWG2xi4EhNDH7kVoQp2vg4vh/H0kO4l6JQK50dS/81zSA1bCbfITyQ3kfmNZ16Npe9892wE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "NodeStake",
+                  "identity": "94EFE192B2C52424",
+                  "website": "https://nodestake.top",
+                  "security_contact": "info@nodestake.top",
+                  "details": "NodeStake is the professional validator, infrastructure provider and IBC relayer.⚛️7*24h | https://twitter.com/Nodestake_top"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.200000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st1g8fmnrz00sqh9pz3ghf8ram9q86te8047tgrkv",
+                "validator_address": "stvaloper1g8fmnrz00sqh9pz3ghf8ram9q86te804f8pr28",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "OS06CQ+DAs44N8GqbLI0+5vpwPauIW5yIoyMdKQPX7w="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "99000000000000000000"
+                }
+              }
+            ],
+            "memo": "037275c531156bac614470bc2d430fc1ddeb04c2@162.19.236.28:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A3P34DI2rMHh6gYRcxpxLn+qXqD6DzIUo/ViCufRNDic"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "75XKaReQ48qXi1asF4koCZDRF0qNnnpgnJuFbmJSRSoIKWC+HoS0xkd7Qj0OHxqF3yOi70bMtiOZh5C52xka6QA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StakingCabin",
+                  "identity": "C0522DF992B0C407",
+                  "website": "https://stakingcabin.com",
+                  "security_contact": "richard@stakingcabin.com",
+                  "details": "StakingCabin"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st1990zcrfu2z24jaqn4w48tm9unvhwr9fnz0rc2h",
+                "validator_address": "stvaloper1990zcrfu2z24jaqn4w48tm9unvhwr9fn4r2cku",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "1yD0tlbMA9bNxmudmNbPOQwCci8aX/Fkpnx3wdqF4Qg="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "10000000000000000000"
+                }
+              }
+            ],
+            "memo": "87a7500ceec95be3c4dd40c6959b9239e15e80e0@172.18.9.251:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A3MabJ+TlOKct9C1bYzcZW47mul8Ioe0pnzGYXHpESj1"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "3DxL4wH9wpkq+QTj0yNQL4kujGA4KZX+KSQnnmRUAJV0Ej+qXASFyZX8mIeAGfsMyoFx+g9fP6RzjskbjeE6PQE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "WhisperNode🤐",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st1qlp8jhykjxglutn4q493p7ltxkt7kw33tm0df7",
+                "validator_address": "stvaloper1qlp8jhykjxglutn4q493p7ltxkt7kw33uhxd44",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "v+PjwjheeKyNv4s2TmvTJrcFR5fG2OUQ4IpLQ8kYZ58="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "99000000000000000000"
+                }
+              }
+            ],
+            "memo": "6c7c0edda5269e0ad3ca409f1ba3623a3f78b092@148.113.159.22:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AqGCqRw3QNoCpDCaJH/SsZwIC7UccfMvn8TAfYcDeToC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "w6CNjD4jb2JJPgY/06c+cbZr/vqYMEFrBLUovK1NRcVzUrWx9d6UNDlGz8NUkx9sULH7fEqV2jXakgjGVOZaPgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "[FPOOL]FrogePool",
+                  "identity": "",
+                  "website": "www.froge.world",
+                  "security_contact": "froge@froge.world",
+                  "details": "https://twitter.com/FrogeWorld"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st19204mtgwql49vyex00ah7e5gg9znedf7w5z68g",
+                "validator_address": "stvaloper19204mtgwql49vyex00ah7e5gg9znedf7ect6mr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "MfKYfbEYN+mbhb81mbBtpt7TGaH6wgvmuz1Xkmsg7I4="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "99000000000000000000"
+                }
+              }
+            ],
+            "memo": "d8af4457311b22ed3f35d2d3e1c4d0e15a952c39@112.213.37.47:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AmXPPj7WCSo0H4HAEPt1PgSmsV1MxgfcEY0XoiQRmcxx"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "2r2cw+9lAkyCl4DywMP6Wp7jLgSHSCDTlUIvwCfsvf5hBt3oXWdOjQmSYjBne4p0bMN+EBNGCgWVYVcjp2Ym8gA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "[NODERS]TEAM",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st1ghkn8ra63422mcepdk0zzglzy6qax637lkqh7s",
+                "validator_address": "stvaloper1ghkn8ra63422mcepdk0zzglzy6qax637g6fhzm",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "1SLhx96Wgk1gkr9Y1xd433tXb28JB56Fc2TtoIU/VwM="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "99000000000000000000"
+                }
+              }
+            ],
+            "memo": "85d494d2540a6dc804628b644a0bb268d41163d3@139.180.217.51:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AtEZ3V71IGiz1j0WzKZq6RRZmyNpy+3lXm7Rj7RwCiGd"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "uX7mYQNdKg++UAw0AVg/WKNpHRUwDmnYbNARrzezo9RotZRynLyQDSLOsG2IEZRgOP/QXH8XfWZsKEbEcLK0ggE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "stratos-validator-00",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st1cxmws9w5ej8847q5ycfskhetrccnhruf56rgc0",
+                "validator_address": "stvaloper1cxmws9w5ej8847q5ycfskhetrccnhrufrk2gyy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "PrFvH4KYDtJYKQIK7mvnEfsMTifD8EhY3vwIpru5LP8="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "99000000000000000000"
+                }
+              }
+            ],
+            "memo": "170a66353590090bb656c2096f6aff78663ef323@127.0.0.1:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AzrvAmTY02IKTAoCUIXFnTyv9spQoUIwhmWiOGN/elvF"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "qliLes0ZaqDe2sQYhzNTrRoLXv+i87wPmuda1+b78dABrRIJlC3BwpRQDqvafSuD7x5cL0sFvHIZvfizYzEAfAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "stratos-validator-01",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st1cxmws9w5ej8847q5ycfskhetrccnhruf56rgc0",
+                "validator_address": "stvaloper1cxmws9w5ej8847q5ycfskhetrccnhrufrk2gyy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "pbDhA3O5wHo76Z0qYsLfVT8SP9YPY5CWc6c2yH5JSgg="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "99000000000000000000"
+                }
+              }
+            ],
+            "memo": "848c2f87b14e2dd59508fbcfb1891054bd153598@127.0.0.1:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AzrvAmTY02IKTAoCUIXFnTyv9spQoUIwhmWiOGN/elvF"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "F/ywUSlUnmhRUpxLn8XF6dmNM9zbhvgQX8myf0kiQdBxoRl4L6yoJowTfWAYSG6Up3WglD3Eq+oEcHKkKJBkbAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "stratos-validator-02",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st1cxmws9w5ej8847q5ycfskhetrccnhruf56rgc0",
+                "validator_address": "stvaloper1cxmws9w5ej8847q5ycfskhetrccnhrufrk2gyy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "L7lxsFJXfbOzmkgW52hgJ/CCw73m0l65VfWg6+K9IW4="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "99000000000000000000"
+                }
+              }
+            ],
+            "memo": "1a408b7325b18fa9135dd5bdab61478d66f32962@127.0.0.1:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AzrvAmTY02IKTAoCUIXFnTyv9spQoUIwhmWiOGN/elvF"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "1LdrOh+rsKq9tvMGJEfcx7f6TnpMVh7NXd+wjea+ZfQjouv+BFg7iu+m1SfVV7iuOyU1YlFnA5RTpoVpKKZFGAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "stratos-validator-03",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "st1cxmws9w5ej8847q5ycfskhetrccnhruf56rgc0",
+                "validator_address": "stvaloper1cxmws9w5ej8847q5ycfskhetrccnhrufrk2gyy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ftXU0oBMLOlfFhrysQQlERlsWr6Z07cv2QxUTFZxdbM="
+                },
+                "value": {
+                  "denom": "wei",
+                  "amount": "99000000000000000000"
+                }
+              }
+            ],
+            "memo": "36dd93f05aaf7383ce2d40813c54015544530775@127.0.0.1:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/stratos.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AzrvAmTY02IKTAoCUIXFnTyv9spQoUIwhmWiOGN/elvF"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "YUvTf602b3GGtAOszUF59kWpXMZnVNESO0zLxACkBs1Ukbjb9cM3l9IUbvQo/cLJC5LY9Rrwk1aUF2f8NBxR+gA="
+          ]
+        }
+      ]
     },
     "gov": {
       "starting_proposal_id": "1",
