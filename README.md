@@ -9,6 +9,8 @@
 
 [genesis.json](genesis%2Fgenesis.json) the final genesis file that will be used to launch the mainnet
 
+[config.toml](config.toml) example config file for network connection.
+
 ### ~~Create your validator from genesis block~~ (this step has passed)
 
 ~~create a gentx and make a pull-request to be included in the genesis [read more](gentx%2FREADME.md)~~
@@ -24,3 +26,7 @@ the final gensis file [genesis.json](genesis%2Fgenesis.json)
 
 If your validator is included in the final genesis, please launch your validator node on the date before Sep 21, 2023, 14:00 UTC 
 
+seed node info 
+```
+seeds = "cdbd7ce27584e699d9b9e6d72a1551666c750e4d@35.86.41.142:26656,ce225e67f7a383b50c91aeb902a86dd3ecb70d65@34.84.212.13:26656"
+```
