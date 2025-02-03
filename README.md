@@ -30,3 +30,8 @@ seed node info
 ```
 seeds = "cdbd7ce27584e699d9b9e6d72a1551666c750e4d@35.86.41.142:26656,ce225e67f7a383b50c91aeb902a86dd3ecb70d65@34.84.212.13:26656"
 ```
+
+### After Stratos Chain Release v0.12.0 
+- Use [genesis.json](genesis/genesis.json) if you are using [state sync](https://docs.thestratos.org/docs-stratos-chain/how-to-start-with-state-sync/) to start the node after v0.12.0 update
+- Use [genesis_v0.11_launch.json](genesis/genesis_v0.11_launch.json) if you start the chain from block height 0 and try to synchronize all blocks
+
